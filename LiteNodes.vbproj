@@ -132,9 +132,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DogeNodes.chm">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="litecoin.ico" />
     <None Include="Resources\litecoin.ico" />
     <None Include="Resources\LitecoinFlat.png" />
