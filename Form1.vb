@@ -2613,8 +2613,8 @@ Public Class Form1
 
         Try
             'Set default values in case github update cannot be obtained
-            lblInstalledVersionValue.Text = My.Settings.DogeNodesVersion
-            lblLatestVersionValue.Text = My.Settings.DogeNodesVersion
+            lblInstalledVersionValue.Text = My.Settings.LiteNodesVersion
+            lblLatestVersionValue.Text = My.Settings.LiteNodesVersion
             lblUpdateStatus.Text = "Your current version of LiteNodes is up to date"
             btnUpdateNow.Enabled = False
 
@@ -2645,7 +2645,7 @@ Public Class Form1
 
             Notification_Display("Information", "The latest LiteNodes version has been successfully identified as " + Version)
         Catch ex As Exception
-            Notification_Display("Error", "There was an error identifying the latest LiteNodes version. It will be assumed to be " + My.Settings.DogeNodesVersion, ex)
+            Notification_Display("Error", "There was an error identifying the latest LiteNodes version. It will be assumed to be " + My.Settings.LiteNodesVersion, ex)
         End Try
 
     End Sub
@@ -2772,7 +2772,7 @@ Public Class Form1
     Private Sub btnRunLitecoinNode_Click(sender As Object, e As EventArgs) Handles btnRunLitecoinNode.Click
 
         'Go to link to running your own node
-        Process.Start(My.Settings.DogecoinCoreURL)
+        Process.Start(My.Settings.LitecoinCoreURL)
 
     End Sub
 

@@ -534,9 +534,9 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("v1.60")>  _
-        Public ReadOnly Property DogeNodesVersion() As String
+        Public ReadOnly Property LiteNodesVersion() As String
             Get
-                Return CType(Me("DogeNodesVersion"),String)
+                Return CType(Me("LiteNodesVersion"),String)
             End Get
         End Property
         
@@ -584,7 +584,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://sourceforge.net/projects/dogenodes/files/latest/download")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://sourceforge.net/projects/litenodes/files/latest/download")>  _
         Public ReadOnly Property DownLoadURL() As String
             Get
                 Return CType(Me("DownLoadURL"),String)
@@ -602,16 +602,16 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://github.com/dogecoin/dogecoin")>  _
-        Public ReadOnly Property DogecoinCoreURL() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("https://github.com/litecoin-project/litecoin")>  _
+        Public ReadOnly Property LitecoinCoreURL() As String
             Get
-                Return CType(Me("DogecoinCoreURL"),String)
+                Return CType(Me("LitecoinCoreURL"),String)
             End Get
         End Property
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("https://starglancer.ddns.net")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("https://starglancer.uk")>  _
         Public ReadOnly Property WebHelp() As String
             Get
                 Return CType(Me("WebHelp"),String)
@@ -620,7 +620,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("starglancer.x@pm.me")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("starglancer@starglancer.uk")>  _
         Public ReadOnly Property EmailHelp() As String
             Get
                 Return CType(Me("EmailHelp"),String)

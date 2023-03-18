@@ -134,7 +134,7 @@
     <Setting Name="DesktopShortcutDefault" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="DogeNodesVersion" Type="System.String" Scope="Application">
+    <Setting Name="LiteNodesVersion" Type="System.String" Scope="Application">
       <Value Profile="(Default)">v1.60</Value>
     </Setting>
     <Setting Name="ShowTooltips" Type="System.Boolean" Scope="User">
@@ -150,19 +150,19 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="DownLoadURL" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://sourceforge.net/projects/dogenodes/files/latest/download</Value>
+      <Value Profile="(Default)">https://sourceforge.net/projects/litenodes/files/latest/download</Value>
     </Setting>
     <Setting Name="DefaultPort" Type="System.String" Scope="Application">
       <Value Profile="(Default)">9333</Value>
     </Setting>
-    <Setting Name="DogecoinCoreURL" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://github.com/dogecoin/dogecoin</Value>
+    <Setting Name="LitecoinCoreURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/litecoin-project/litecoin</Value>
     </Setting>
     <Setting Name="WebHelp" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://starglancer.ddns.net</Value>
+      <Value Profile="(Default)">https://starglancer.uk</Value>
     </Setting>
     <Setting Name="EmailHelp" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">starglancer.x@pm.me</Value>
+      <Value Profile="(Default)">starglancer@starglancer.uk</Value>
     </Setting>
   </Settings>
 </SettingsFile>
