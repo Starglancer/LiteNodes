@@ -106,7 +106,7 @@ Public Class Form1
             chkHighlightCurrentNode.Checked = My.Settings.HighlightNode
 
             'check if help file present and then update visibility of inline help section on Help tab
-            If File.Exists(Application.StartupPath() + "/DogeNodes.chm") Then
+            If File.Exists(Application.StartupPath() + "/LiteNodes.chm") Then
                 gbxInlineHelp.Visible = True
             Else
                 gbxInlineHelp.Visible = False
@@ -2809,7 +2809,7 @@ Public Class Form1
         'Open help file
 
         Try
-            Process.Start(Application.StartupPath + "/DogeNodes.chm")
+            Process.Start(Application.StartupPath + "/LiteNodes.chm")
 
             Notification_Display("Information", "Help file was opened successfully")
         Catch ex As Exception
