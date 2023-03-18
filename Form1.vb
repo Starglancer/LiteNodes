@@ -394,14 +394,18 @@ Public Class Form1
                         pbxCurrent.Image = My.Resources.Grey
                         CurrentColour = "Grey"
                         Notification_Display("Warning", "Agent version not recognised")
-                    ElseIf AgentVersion.Remove(CurrentAgentVersion.Length) = CurrentAgentVersion Then
-                        pbxCurrent.Image = My.Resources.Green
-                        CurrentColour = "Green"
-                        Notification_Display("Information", "Agent version is up to date")
-                    Else
+                    ElseIf AgentVersion.Length < CurrentAgentVersion.Length Then
                         pbxCurrent.Image = My.Resources.Red
                         CurrentColour = "Red"
                         Notification_Display("Warning", "Agent version is out of date")
+                    ElseIf AgentVersion.Remove(CurrentAgentVersion.Length) <> CurrentAgentVersion Then
+                        pbxCurrent.Image = My.Resources.Red
+                        CurrentColour = "Red"
+                        Notification_Display("Warning", "Agent version is out of date")
+                    Else
+                        pbxCurrent.Image = My.Resources.Green
+                        CurrentColour = "Green"
+                        Notification_Display("Information", "Agent version is up to date")
                     End If
                 Else
                     pbxCurrent.Image = My.Resources.Grey
