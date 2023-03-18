@@ -386,11 +386,11 @@ Public Class Form1
                 'Update Current Indicator
                 If Status = True Then
                     Dim AgentVersion As String = lblVersionValue.Text
-                    If AgentVersion.Length < 12 Then
+                    If AgentVersion.Length < 14 Then
                         pbxCurrent.Image = My.Resources.Grey
                         CurrentColour = "Grey"
                         Notification_Display("Warning", "Agent version not recognised")
-                    ElseIf AgentVersion.Remove(12) <> "/Shibetoshi:" Then
+                    ElseIf AgentVersion.Remove(14) <> "/LitecoinCore:" Then
                         pbxCurrent.Image = My.Resources.Grey
                         CurrentColour = "Grey"
                         Notification_Display("Warning", "Agent version not recognised")
@@ -1294,7 +1294,7 @@ Public Class Form1
 
             Dim Version As String = parseRelease.SelectToken("tag_name").ToString
             Version = Version.TrimStart("v")
-            Version = "/Shibetoshi:" + Version
+            Version = "/LitecoinCore:" + Version
 
             CurrentAgentVersion = Version
 
