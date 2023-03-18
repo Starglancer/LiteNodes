@@ -1,0 +1,168 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="IPAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NodePort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Statistics" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Country</Value>
+    </Setting>
+    <Setting Name="GreenToYellow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="YellowToRed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="GreenToYellowDefault" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="YellowToRedDefault" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="HideTrayIcon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideTrayIconDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MinimiseToTray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MinimiseToTrayDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MinimiseOnClose" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MinimiseOnCloseDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StartupTab" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Summary</Value>
+    </Setting>
+    <Setting Name="StartupTabDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Summary</Value>
+    </Setting>
+    <Setting Name="WindowsNotification" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WindowsNotificationDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ApplicationNotification" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ApplicationNotificationDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AllowLogging" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AllowLoggingDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AllowEmailNotification" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AllowEmailNotificationDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WindowsNotificationLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="WindowsNotificationLevelDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="ApplicationNotificationLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="ApplicationNotificationLevelDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="LoggingLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="LoggingLevelDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="EmailNotificationLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="EmailNotificationLevelDefault" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Warning and Error</Value>
+    </Setting>
+    <Setting Name="SMTPHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SMTPPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseSSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EmailAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurrentAgentVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StartMinimised" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StartMinimisedDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StartWithWindows" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StartWithWindowsDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DesktopShortcut" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DesktopShortcutDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DogeNodesVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">v1.60</Value>
+    </Setting>
+    <Setting Name="ShowTooltips" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowTooltipsDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HighlightNode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HighlightNodeDefault" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DownLoadURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://sourceforge.net/projects/dogenodes/files/latest/download</Value>
+    </Setting>
+    <Setting Name="DefaultPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">9333</Value>
+    </Setting>
+    <Setting Name="DogecoinCoreURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://github.com/dogecoin/dogecoin</Value>
+    </Setting>
+    <Setting Name="WebHelp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://starglancer.ddns.net</Value>
+    </Setting>
+    <Setting Name="EmailHelp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">starglancer.x@pm.me</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
