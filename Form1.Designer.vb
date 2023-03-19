@@ -1811,7 +1811,7 @@ Partial Class Form1
         'trkYellowToRed
         '
         Me.trkYellowToRed.Location = New System.Drawing.Point(475, 25)
-        Me.trkYellowToRed.Maximum = 40
+        Me.trkYellowToRed.Maximum = 50
         Me.trkYellowToRed.Minimum = 1
         Me.trkYellowToRed.Name = "trkYellowToRed"
         Me.trkYellowToRed.Size = New System.Drawing.Size(104, 45)
@@ -1823,7 +1823,7 @@ Partial Class Form1
         'trkGreenToYellow
         '
         Me.trkGreenToYellow.Location = New System.Drawing.Point(172, 25)
-        Me.trkGreenToYellow.Maximum = 20
+        Me.trkGreenToYellow.Maximum = 25
         Me.trkGreenToYellow.Minimum = 1
         Me.trkGreenToYellow.Name = "trkGreenToYellow"
         Me.trkGreenToYellow.Size = New System.Drawing.Size(104, 45)
