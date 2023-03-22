@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -8,17 +9,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("BlockchainNodes")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("AlienWare")>
-<Assembly: AssemblyProduct("BlockchainNodes")>
-<Assembly: AssemblyCopyright("Copyright © AlienWare 2023")>
+<Assembly: AssemblyTitle("LiteNodes")>
+<Assembly: AssemblyDescription("Blockchain node analyser and monitor")>
+<Assembly: AssemblyCompany("Starglancer")>
+<Assembly: AssemblyProduct("LiteNodes")>
+<Assembly: AssemblyCopyright("Copyright © Starglancer 2023")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("5def3690-6935-44e5-8f2d-a03dadbc4e7e")>
+<Assembly: Guid("57f74c71-b3f9-429f-bc1a-91812706cbf9")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +32,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.6.0.0")>
+<Assembly: AssemblyFileVersion("1.6.0.0")>
+<Assembly: NeutralResourcesLanguage("en-GB")>
