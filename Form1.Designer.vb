@@ -203,6 +203,7 @@ Partial Class Form1
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.timTextbox = New System.Windows.Forms.Timer(Me.components)
         Me.hlpLiteNodes = New System.Windows.Forms.HelpProvider()
+        Me.mnuClearLog = New System.Windows.Forms.ToolStripMenuItem()
         Me.TabControl1.SuspendLayout()
         Me.tabSummary.SuspendLayout()
         CType(Me.pbxDogecoin, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2038,72 +2039,72 @@ Partial Class Form1
         '
         'TrayMenuStrip
         '
-        Me.TrayMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSummary, Me.mnuStatistics, Me.mnuNodeList, Me.mnuNodeMap, Me.mnuNodeStatus, Me.mnuSettings, Me.mnuHelp, Me.ToolStripSeparator1, Me.mnuDisplayLog, Me.ToolStripSeparator2, Me.mnuExit})
+        Me.TrayMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSummary, Me.mnuStatistics, Me.mnuNodeList, Me.mnuNodeMap, Me.mnuNodeStatus, Me.mnuSettings, Me.mnuHelp, Me.ToolStripSeparator1, Me.mnuDisplayLog, Me.mnuClearLog, Me.ToolStripSeparator2, Me.mnuExit})
         Me.TrayMenuStrip.Name = "TrayMenuStrip"
-        Me.TrayMenuStrip.Size = New System.Drawing.Size(139, 214)
+        Me.TrayMenuStrip.Size = New System.Drawing.Size(181, 258)
         '
         'mnuSummary
         '
         Me.mnuSummary.Name = "mnuSummary"
-        Me.mnuSummary.Size = New System.Drawing.Size(138, 22)
+        Me.mnuSummary.Size = New System.Drawing.Size(180, 22)
         Me.mnuSummary.Text = "Summary"
         '
         'mnuStatistics
         '
         Me.mnuStatistics.Name = "mnuStatistics"
-        Me.mnuStatistics.Size = New System.Drawing.Size(138, 22)
+        Me.mnuStatistics.Size = New System.Drawing.Size(180, 22)
         Me.mnuStatistics.Text = "Statistics"
         '
         'mnuNodeList
         '
         Me.mnuNodeList.Name = "mnuNodeList"
-        Me.mnuNodeList.Size = New System.Drawing.Size(138, 22)
+        Me.mnuNodeList.Size = New System.Drawing.Size(180, 22)
         Me.mnuNodeList.Text = "Node List"
         '
         'mnuNodeMap
         '
         Me.mnuNodeMap.Name = "mnuNodeMap"
-        Me.mnuNodeMap.Size = New System.Drawing.Size(138, 22)
+        Me.mnuNodeMap.Size = New System.Drawing.Size(180, 22)
         Me.mnuNodeMap.Text = "Node Map"
         '
         'mnuNodeStatus
         '
         Me.mnuNodeStatus.Name = "mnuNodeStatus"
-        Me.mnuNodeStatus.Size = New System.Drawing.Size(138, 22)
+        Me.mnuNodeStatus.Size = New System.Drawing.Size(180, 22)
         Me.mnuNodeStatus.Text = "Node Status"
         '
         'mnuSettings
         '
         Me.mnuSettings.Name = "mnuSettings"
-        Me.mnuSettings.Size = New System.Drawing.Size(138, 22)
+        Me.mnuSettings.Size = New System.Drawing.Size(180, 22)
         Me.mnuSettings.Text = "Settings"
         '
         'mnuHelp
         '
         Me.mnuHelp.Name = "mnuHelp"
-        Me.mnuHelp.Size = New System.Drawing.Size(138, 22)
+        Me.mnuHelp.Size = New System.Drawing.Size(180, 22)
         Me.mnuHelp.Text = "Help"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(135, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'mnuDisplayLog
         '
         Me.mnuDisplayLog.Name = "mnuDisplayLog"
-        Me.mnuDisplayLog.Size = New System.Drawing.Size(138, 22)
+        Me.mnuDisplayLog.Size = New System.Drawing.Size(180, 22)
         Me.mnuDisplayLog.Text = "Display Log"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(135, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
         '
         'mnuExit
         '
         Me.mnuExit.Name = "mnuExit"
-        Me.mnuExit.Size = New System.Drawing.Size(138, 22)
+        Me.mnuExit.Size = New System.Drawing.Size(180, 22)
         Me.mnuExit.Text = "Exit"
         '
         'timClearError
@@ -2120,6 +2121,12 @@ Partial Class Form1
         'hlpLiteNodes
         '
         Me.hlpLiteNodes.HelpNamespace = "LiteNodes.chm"
+        '
+        'mnuClearLog
+        '
+        Me.mnuClearLog.Name = "mnuClearLog"
+        Me.mnuClearLog.Size = New System.Drawing.Size(180, 22)
+        Me.mnuClearLog.Text = "Clear Log"
         '
         'Form1
         '
@@ -2365,4 +2372,5 @@ Partial Class Form1
     Friend WithEvents Value As DataGridViewTextBoxColumn
     Friend WithEvents Count As DataGridViewTextBoxColumn
     Friend WithEvents BarChart As DataGridViewTextBoxColumn
+    Friend WithEvents mnuClearLog As ToolStripMenuItem
 End Class

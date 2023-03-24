@@ -1916,21 +1916,7 @@ Public Class Form1
 
     Private Sub btnClearLog_Click(sender As Object, e As EventArgs) Handles btnClearLog.Click
 
-        Try
-            'Get confirmation
-            If Request_Confirmation("This will permanently delete the logs") = True Then
-
-                'If log file exists, then delete it
-                If File.Exists(LogFileName) = True Then
-                    File.SetAttributes(LogFileName, FileAttributes.Normal)
-                    File.Delete(LogFileName)
-                End If
-            End If
-
-            Notification_Display("Information", "The log file has been cleared")
-        Catch ex As Exception
-            Notification_Display("Error", "There was an error clearing the log file", ex)
-        End Try
+        Clear_log()
 
     End Sub
 
@@ -3224,6 +3210,32 @@ Public Class Form1
     Private Sub tabNodeMap_Leave(sender As Object, e As EventArgs) Handles tabNodeMap.Leave
 
         Recreate_Map_Control()
+
+    End Sub
+
+    Private Sub mnuClearLog_Click(sender As Object, e As EventArgs) Handles mnuClearLog.Click
+
+        Clear_log()
+
+    End Sub
+
+    Private Sub Clear_log()
+
+        Try
+            'Get confirmation
+            If Request_Confirmation("This will permanently delete the logs") = True Then
+
+                'If log file exists, then delete it
+                If File.Exists(LogFileName) = True Then
+                    File.SetAttributes(LogFileName, FileAttributes.Normal)
+                    File.Delete(LogFileName)
+                End If
+            End If
+
+            Notification_Display("Information", "The log file has been cleared")
+        Catch ex As Exception
+            Notification_Display("Error", "There was an error clearing the log file", ex)
+        End Try
 
     End Sub
 
