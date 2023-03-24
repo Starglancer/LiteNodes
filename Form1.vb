@@ -150,6 +150,9 @@ Public Class Form1
             Configure_Desktop_Shortcut()
             Configure_Startup_Shortcut()
 
+            'Centre application window on the screen
+            Me.CenterToScreen()
+
             'Check if set to start minimised
             If chkStartMinimised.Checked = True Then
                 WindowState = FormWindowState.Minimized
@@ -1443,7 +1446,6 @@ Public Class Form1
                 Me.Visible = False
                 Notify_Icon_Display()
                 ShowInTaskbar = True
-                Me.CenterToScreen()
                 Me.Visible = True
                 Notification_Display("Information", "The application window has been displayed")
             End If
