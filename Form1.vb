@@ -1903,7 +1903,7 @@ Public Class Form1
                 p = Process.Start("notepad.exe")
             End If
 
-            'Go to end of file
+            'Go to end of file (Ctrl-End in Notepad)
             p.WaitForInputIdle()
             SendKeys.SendWait("^{END}")
 
