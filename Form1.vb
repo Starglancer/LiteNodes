@@ -1893,13 +1893,19 @@ Public Class Form1
 
     Private Sub Display_Log()
 
+        Dim p As Process
+
         Try
             'Open notepad, and if log file exists, open it
             If File.Exists(LogFileName) = True Then
-                Process.Start("notepad.exe", LogFileName)
+                p = Process.Start("notepad.exe", LogFileName)
             Else
-                Process.Start("notepad.exe")
+                p = Process.Start("notepad.exe")
             End If
+
+            'Go to end of file
+            p.WaitForInputIdle()
+            SendKeys.SendWait("^{END}")
 
             Notification_Display("Information", "The log file has been opened successfully")
         Catch ex As Exception
