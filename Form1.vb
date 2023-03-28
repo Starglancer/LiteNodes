@@ -2969,9 +2969,11 @@ Public Class Form1
         Try
             If chkAllowLogging.Checked = True Then
                 mnuDisplayLog.Visible = True
+                mnuClearLog.Visible = True
                 ToolStripSeparator1.Visible = True
             Else
                 mnuDisplayLog.Visible = False
+                mnuClearLog.Visible = False
                 ToolStripSeparator1.Visible = False
             End If
 
