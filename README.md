@@ -44,11 +44,6 @@ A Windows Forms based application to analyse the Litecoin blockchain network and
  
 ## To Do List
 
-- Enable LiteNodes, GRSNodes and DogeNodes to run side by side on same computer
-- Correct typo in help file
-- Set application window to retain position when minimised and restored
-- Add option to tray menu to clear the log file
-- Go to end of log file in Notepad once opened
 - Fix any bugs identified by users
 - Make enhancements identified by users
  
