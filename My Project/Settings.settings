@@ -135,7 +135,7 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="LiteNodesVersion" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">v1.60</Value>
+      <Value Profile="(Default)">v1.70</Value>
     </Setting>
     <Setting Name="ShowTooltips" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
